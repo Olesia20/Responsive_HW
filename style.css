@@ -84,3 +84,21 @@ p {
 .email-link:hover {
   text-decoration: underline;
 }
+@media (max-width: 576px) {
+  footer {
+    display: none;
+  }
+  p {
+    text-align: center;
+  }
+  .primary-link,
+  .secondary-link {
+    font-size: 10px;
+    text-align: center;
+    padding: 10px;
+    display: block;
+  }
+  .mb-3 {
+    text-align: center;
+  }
+}
